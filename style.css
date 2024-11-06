@@ -1,0 +1,22 @@
+#signo-form{
+width: 50%;
+margin: 5px auto;
+text-align: center;
+padding: 20px;
+
+border-top: 1px solid cornflowerblue;
+}
+#signo-form input{
+width: 50%;
+margin: 5px auto;
+}
+#signo-form #signo-btn{
+background-color: cornflowerblue;
+color:#fff
+}
+#signo-form #register-url{
+color:cornflowerblue;
+}
+.result{
+background: url(imgs/bg_zodiac.jpg) no-repeat;
+}

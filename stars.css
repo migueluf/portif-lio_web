@@ -1,0 +1,94 @@
+html {
+height: 100%;
+background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+overflow: hidden;
+}
+.voltar{
+position: absolute;
+top: 90%;
+left: 0;
+right: 0;
+color: #FFF;
+}
+#stars {
+width: 1px;
+height: 1px;
+background: transparent;
+box-shadow: 423px 1297px #FFF , 1908px 608px #FFF , 1814px 34px #FFF;
+animation: animStar 50s linear infinite;
+}
+#stars:after {
+content: " ";
+position: absolute;
+top: 2000px;
+width: 1px;
+height: 1px;
+background: transparent;
+box-shadow: 423px 1297px #FFF , 1908px 608px #FFF , 1814px 34px #FFF ;
+}
+#stars2 {
+width: 2px;
+height: 2px;
+background: transparent;
+box-shadow: 567px 1892px #FFF , 1010px 1177px #FFF , 1708px 295px #FFF , 1509px 1964px #FFF , 1556px
+374px #FFF ;
+animation: animStar 100s linear infinite;
+}
+#stars2:after {
+content: " ";
+position: absolute;
+top: 2000px;
+width: 2px;
+height: 2px;
+background: transparent;
+box-shadow: 567px 1892px #FFF , 1010px 1177px #FFF , 1708px 295px #FFF , 1509px 1964px #FFF , 1556px
+374px #FFF;
+}
+#stars3 {
+width: 3px;
+height: 3px;
+background: transparent;
+box-shadow: 955px 980px #FFF , 1909px 68px #FFF , 1804px 967px #FFF , 545px 797px #FFF , 1814px 1324px
+#FFF , 34px 1848px #FFF , 741px 188px #FFF , 600px 1693px #FFF , 152px 1659px #FFF , 272px 1076px #FFF ,
+695px 1045px #FFF , 890px 785px #FFF ;
+animation: animStar 150s linear infinite;
+}
+#stars3:after {
+content: " ";
+position: absolute;
+top: 2000px;
+width: 3px;
+height: 3px;
+background: transparent;
+box-shadow: 955px 980px #FFF , 1909px 68px #FFF , 1804px 967px #FFF , 545px 797px #FFF , 1814px 1324px
+#FFF , 34px 1848px #FFF , 741px 188px #FFF , 600px 1693px #FFF , 152px 1659px #FFF , 272px 1076px #FFF ,
+695px 1045px #FFF , 890px 785px #FFF ;
+}
+#title {
+position: absolute;
+top: 50%;
+left: 0;
+right: 0;
+color: #FFF;
+text-align: center;
+font-family: "lato", sans-serif;
+font-weight: 300;
+font-size: 50px;
+
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+  }
+  #title span {
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  @keyframes animStar {
+  from {
+  transform: translateY(0px);
+  }
+  to {
+  transform: translateY(-2000px);
+  }
+  }
